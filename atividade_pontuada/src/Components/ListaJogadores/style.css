@@ -1,0 +1,35 @@
+/* src/Components/ListaDeJogadores/style.css */
+
+.lista-de-jogadores {
+  padding: 10px;
+  margin-top: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.lista-de-jogadores ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.lista-de-jogadores li {
+  font-size: 16px;
+  padding: 10px;
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  margin: 5px 0;
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: background-color 0.3s ease;
+}
+
+.lista-de-jogadores li:hover {
+  background-color: #e9f7ef;
+}
+
+.lista-de-jogadores li span {
+  font-weight: bold;
+}

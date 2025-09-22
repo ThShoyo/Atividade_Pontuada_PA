@@ -1,0 +1,77 @@
+/* src/Components/CadastrarJogadores/style.css */
+
+.cadastrar-jogadores {
+  width: 100%;
+  max-width: 600px;
+  margin: 35px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 6px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.cadastrar-jogadores h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.cadastrar-jogadores form {
+  display: flex;
+  flex-direction: column;
+  gap: 19px;
+}
+
+.cadastrar-jogadores label {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+}
+
+.cadastrar-jogadores input {
+  padding: 8px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  width: 100%;
+  transition: border-color 0.4s ease;
+}
+
+.cadastrar-jogadores input:focus {
+  border-color: #4CAF50;
+  outline: none;
+}
+
+.cadastrar-jogadores button {
+  padding: 12px;
+  background-color: #4CAF50;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.cadastrar-jogadores button:hover {
+  background-color: #45a049;
+}
+
+.cadastrar-jogadores ul {
+  margin-top: 30px;
+  padding: 0;
+}
+
+.cadastrar-jogadores li {
+  padding: 10px;
+  background-color: #f4f4f4;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+  font-size: 14px;
+}
+
+.cadastrar-jogadores li span {
+  font-weight: bold;
+}
